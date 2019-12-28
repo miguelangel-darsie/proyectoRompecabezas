@@ -1,0 +1,166 @@
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+    font-family: Arial, sans-serif;
+    width: 940px;
+    margin: 5% auto;
+    min-height: 100%;
+    background-image: url(../images/pokemon5.jpg);
+    background-size: cover; 
+  }
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  li {
+    padding: 5px 0;
+    animation: fadein 5s;
+  }
+  li::before {
+    content: "• ";
+    color: #EC6778;
+  }
+  
+  .col-40 h1 {
+    font-size: 20px;
+    color: #E84A5F;
+  }
+  
+  .col-40, .col-60 {
+    display: table-cell;
+    margin: 0;
+    vertical-align: top;
+  }
+  .col-40 {
+    background: #FFF;
+    padding: 30px;
+    color: #000;
+  }
+  
+  .col-60 {
+    background: #E84A5F;
+  
+  }
+  
+  #flecha{
+    font-size: 60px;
+  }
+  
+  .texto-centrado {
+    text-align: center;
+  }
+  
+  #juego div {
+    text-align: center;
+    animation: fadein 2s;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  #cartel {
+    position: absolute; 
+    height: 600px;
+    width: 940px; 
+    background-color: rgb(243, 217, 66);
+    align-items: center;
+    justify-content: center; 
+    display: none; 
+    color: rgb(102, 99, 99); 
+    text-align: center; 
+    font-size: 6em; 
+    flex-direction: column; 
+    animation: fadein 2s;
+    border: 5px solid rgb(102, 99, 99); 
+    border-radius: 15px; 
+  
+  }
+  @keyframes fadein {
+    from { opacity: 0.3; }
+    to { opacity: 1; }
+  }
+  
+  #cartel p {
+    text-align: center;
+    animation: fadein 2s alternate 3;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0.8; }
+    to { opacity: 1; }
+  }
+  
+  #juego {
+    background-color: rgb(255, 223, 43); 
+    height: 600px;
+    width: 600px; 
+  }
+  
+  .clasePieza {
+    height: 33%;
+    width: 33%;
+    float: left; 
+    margin: 1px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .imagen {
+    height: 99%;
+    width: 99%;
+    border: 1px solid rgb(141, 139, 139);  
+  }
+  
+  .cursor {
+    border-radius: 100%; 
+    height: 70%;
+    width: 70%;
+     
+  }
+  
+  
+  .objetivoFinal {
+    height: 100px;
+    width: auto; 
+  }
+  
+  .subtitulo {
+    color: darkgoldenrod;
+    font-size: 1em; 
+  }
+  
+  .boton {
+     height: 60px;
+     width: 350px; 
+     font-size: 0.2em; 
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     text-align: center; 
+     margin-top: 10px; 
+     margin-left: auto;
+     margin-right: auto;  
+     border: 2px solid rgb(102, 99, 99); 
+     border-radius: 15px; 
+  
+  }
+
+  .boton:active, .boton:link {
+    text-decoration: none; 
+  }
+  
+  .boton:visited{
+  color: rgb(102, 99, 99);
+  background-color: rgb(245, 225, 110);   
+  }
+  .boton:hover {
+    transition: 0.8s; 
+    background-color: rgb(102, 99, 99);
+    color: rgb(245, 225, 110); 
+  }
+  
+  
